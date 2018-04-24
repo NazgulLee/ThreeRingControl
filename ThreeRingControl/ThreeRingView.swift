@@ -55,7 +55,7 @@ public class ThreeRingView : UIView {
   
   
   fileprivate func sharedInitialization() {
-    backgroundColor = UIColor.black
+    backgroundColor = UIColor.blue
     for (_, ring) in rings {
       layer.addSublayer(ring)
       ring.backgroundColor = UIColor.clear.cgColor
